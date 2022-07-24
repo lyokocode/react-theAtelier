@@ -1,0 +1,153 @@
+.section-center {
+    width: 90vw;
+    margin: 0 auto;
+    // max-width: 45rem;
+    margin-top: 5rem;
+
+    .todo-container {
+        border-radius: 15px;
+        background-color: white;
+        margin: auto;
+        width: 80%;
+        height: 100%;
+        overflow: auto;
+        max-height: 520px;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+
+        h3 {
+            color: hsl(205, 86%, 17%);
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+
+
+
+        .form-control {
+            display: flex;
+            justify-content: center;
+
+            height: 50px;
+
+            .todo-input {
+                top: 10px;
+                padding: 0.25rem;
+                padding-left: 1rem;
+                background: hsl(210, 36%, 96%);
+                border-top-left-radius: 0.25rem;
+                border-bottom-left-radius: 0.25rem;
+                border-color: transparent;
+                font-size: 1rem;
+                flex: 1 0 auto;
+                color: hsl(210, 22%, 49%);
+
+                &::placeholder {
+                    color: hsl(210, 22%, 49%);
+                }
+            }
+
+
+            .submit-btn {
+                background: hsl(205, 86%, 81%);
+                border-color: transparent;
+                flex: 0 0 5rem;
+                display: grid;
+                align-items: center;
+                padding: 0.25rem;
+                text-transform: capitalize;
+                letter-spacing: 2px;
+                border-top-right-radius: 0.25rem;
+                border-bottom-right-radius: 0.25rem;
+                cursor: pointer;
+                content: hsl(205, 78%, 60%);
+                transition: all 0.3s linear;
+                font-size: 0.85rem;
+            }
+        }
+
+        .clear-btn {
+            text-transform: capitalize;
+            width: 10rem;
+            height: 1.5rem;
+            display: grid;
+            align-items: center;
+            background: transparent;
+            border-color: transparent;
+            color: hsl(360, 71%, 66%);
+            margin: 0 auto;
+            font-size: 0.85rem;
+            letter-spacing: 0.1rem;
+            cursor: pointer;
+            transition: all 0.3s linear;
+            bottom: 10%;
+            margin-top: 1.25rem;
+        }
+
+
+        .todo-item {
+            height: 60px;
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 0.5rem;
+            transition: all 0.3s linear;
+            padding: 10px 25px;
+            border-radius: 0.25rem;
+            text-transform: capitalize;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+
+            &:hover {
+                color: hsl(210, 22%, 49%);
+                background-color: hsl(210, 36%, 96%);
+            }
+
+            title {
+                margin-bottom: 0;
+                color: hsl(209, 61%, 16%);
+                letter-spacing: 2px;
+                transition: all 0.3s linear;
+            }
+
+            .edit-btn,
+            .delete-btn {
+                background: transparent;
+                border-color: transparent;
+                cursor: pointer;
+                font-size: 0.7rem;
+                margin: 0 0.15rem;
+                transition: all 0.3s linear;
+            }
+
+            .edit-btn {
+                color: hsl(125, 71%, 66%);
+
+                &:hover {
+                    color: hsl(125, 67%, 44%);
+                }
+            }
+
+
+            .delete-btn {
+                color: hsl(360, 71%, 66%);
+
+                &:hover {
+                    color: hsl(360, 67%, 44%);
+                }
+            }
+
+
+        }
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .section-center {
+        width: 95vw;
+        // min-width: 94vh;
+
+        .todo-container {
+            width: 80vw;
+        }
+    }
+}
