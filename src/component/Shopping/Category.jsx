@@ -2,16 +2,16 @@ import React, { useEffect, useState } from 'react'
 
 const Category = () => {
 
-    const [categories, setCategories] = useState([])
+    // const [categories, setCategories] = useState([])
 
-    useEffect(() => {
+    // useEffect(() => {
 
-        fetch("http://localhost:3000/categories")
-            .then(res => res.json())
-            .then(data => setCategories(data))
+    //     fetch("http://localhost:3000/categories")
+    //         .then(res => res.json())
+    //         .then(data => setCategories(data))
 
-        console.log("tetiklendi");
-    }, [])
+    //     console.log("tetiklendi");
+    // }, [])
 
     return (
         <></>

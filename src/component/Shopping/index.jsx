@@ -6,10 +6,7 @@ import "../../styles/shopping.scss"
 const Shopping = () => {
 
     const [categories, setCategories] = useState([])
-    const [list, setList] = useState("")
-
     useEffect(() => {
-
         fetch("http://localhost:3000/categories")
             .then(res => res.json())
             .then(data => setCategories(data))
@@ -17,9 +14,12 @@ const Shopping = () => {
         console.log("tetiklendi");
     }, [])
 
+    // product listing by category
+    const [list, setList] = useState("")
+    const [all, setAll] = useState(false)
+
     const changeCategory = (category) => {
         setList(category.CategoryId)
-        console.log(category.CategoryId);
     }
 
     return (
@@ -28,7 +28,7 @@ const Shopping = () => {
             <div className='category-container'>
 
                 <ul>
-                    <li >all</li>
+
                     {categories.map(category => (
                         <li onClick={() => changeCategory(category)} key={category.CategoryId}>{category.CategoryName}</li>
                     ))}
