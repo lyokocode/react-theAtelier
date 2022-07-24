@@ -15,7 +15,7 @@ const Header = () => {
                 <NavLink to="/shopping">
                     <h4>Shopping</h4>
                 </NavLink>
-                <NavLink to="/shopping">
+                <NavLink to="/expense">
                     <h4>Expense</h4>
                 </NavLink>
             </nav>
@@ -23,7 +23,7 @@ const Header = () => {
                 <div>
                     <img src="https://pbs.twimg.com/profile_images/1328346782733045760/NjloAlik_400x400.jpg" alt="logo" />
                 </div>
-                <h4>Mustafa</h4>
+                <h4>"Aelita"</h4>
             </NavLink>
         </header>
     )

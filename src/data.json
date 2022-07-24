@@ -1,0 +1,1511 @@
+{
+    "products": [
+        {
+            "id": "1",
+            "categoryId": "1",
+            "name": "sütlü çokoviç"
+        },
+        {
+            "id": "2",
+            "categoryId": "1",
+            "name": "bitter callebout"
+        },
+        {
+            "id": "3",
+            "categoryId": "1",
+            "name": "bitter çokoviç"
+        },
+        {
+            "id": "4",
+            "categoryId": "1",
+            "name": "beyaz çokoviç"
+        },
+        {
+            "id": "5",
+            "categoryId": "1",
+            "name": "sütlü callebout"
+        },
+        {
+            "id": "6",
+            "categoryId": "2",
+            "name": "Domates"
+        },
+        {
+            "id": "7",
+            "categoryId": "2",
+            "name": "Cherry domates"
+        },
+        {
+            "id": "8",
+            "categoryId": "2",
+            "name": "Salatalık"
+        },
+        {
+            "id": "9",
+            "categoryId": "2",
+            "name": "iceberg marul"
+        },
+        {
+            "id": "10",
+            "categoryId": "2",
+            "name": "Kapya biber"
+        },
+        {
+            "id": "11",
+            "categoryId": "2",
+            "name": "Yeşil biber"
+        },
+        {
+            "id": "12",
+            "categoryId": "2",
+            "name": "Patates"
+        },
+        {
+            "id": "13",
+            "categoryId": "2",
+            "name": "Soğan"
+        },
+        {
+            "id": "14",
+            "categoryId": "2",
+            "name": "Mor soğan"
+        },
+        {
+            "id": "15",
+            "categoryId": "2",
+            "name": "Patlıcan"
+        },
+        {
+            "id": "16",
+            "categoryId": "2",
+            "name": "Maydanoz"
+        },
+        {
+            "id": "17",
+            "categoryId": "2",
+            "name": "Nane"
+        },
+        {
+            "id": "18",
+            "categoryId": "2",
+            "name": "Ispanak"
+        },
+        {
+            "id": "19",
+            "categoryId": "2",
+            "name": "Roka"
+        },
+        {
+            "id": "20",
+            "categoryId": "2",
+            "name": "Havuç"
+        },
+        {
+            "id": "21",
+            "categoryId": "2",
+            "name": "Kırmızı pancar"
+        },
+        {
+            "id": "22",
+            "categoryId": "2",
+            "name": "Mor Havuç"
+        },
+        {
+            "id": "23",
+            "categoryId": "2",
+            "name": "Zencefil"
+        },
+        {
+            "id": "24",
+            "categoryId": "2",
+            "name": "Bezelye"
+        },
+        {
+            "id": "25",
+            "categoryId": "2",
+            "name": "Mor matul"
+        },
+        {
+            "id": "26",
+            "categoryId": "2",
+            "name": "Maş fasülyesi"
+        },
+        {
+            "id": "27",
+            "categoryId": "3",
+            "name": "Çilek"
+        },
+        {
+            "id": "28",
+            "categoryId": "3",
+            "name": "Muz"
+        },
+        {
+            "id": "29",
+            "categoryId": "3",
+            "name": "Kivi"
+        },
+        {
+            "id": "30",
+            "categoryId": "3",
+            "name": "Portakal"
+        },
+        {
+            "id": "31",
+            "categoryId": "3",
+            "name": "Limon"
+        },
+        {
+            "id": "32",
+            "categoryId": "3",
+            "name": "Lime"
+        },
+        {
+            "id": "33",
+            "categoryId": "3",
+            "name": "Kavun"
+        },
+        {
+            "id": "34",
+            "categoryId": "3",
+            "name": "Kırmızı elma"
+        },
+        {
+            "id": "35",
+            "categoryId": "3",
+            "name": "Yeşil elma"
+        },
+        {
+            "id": "36",
+            "categoryId": "3",
+            "name": "Karpuz"
+        },
+        {
+            "id": "37",
+            "categoryId": "3",
+            "name": "Ananas"
+        },
+        {
+            "id": "38",
+            "categoryId": "4",
+            "name": "17'lik kraft"
+        },
+        {
+            "id": "39",
+            "categoryId": "4",
+            "name": "22'lik kraft"
+        },
+        {
+            "id": "40",
+            "categoryId": "4",
+            "name": "28'lik kraft"
+        },
+        {
+            "id": "41",
+            "categoryId": "4",
+            "name": "Kese Kağıdı"
+        },
+        {
+            "id": "42",
+            "categoryId": "4",
+            "name": "Tost Tağıdı"
+        },
+        {
+            "id": "43",
+            "categoryId": "4",
+            "name": "14 oz soğuk bardağı"
+        },
+        {
+            "id": "44",
+            "categoryId": "4",
+            "name": "14 oz soğuk bardağı"
+        },
+        {
+            "id": "45",
+            "categoryId": "4",
+            "name": "12 oz soğuk bardağı"
+        },
+        {
+            "id": "46",
+            "categoryId": "4",
+            "name": "Bardak altlığı"
+        },
+        {
+            "id": "47",
+            "categoryId": "4",
+            "name": "Siliv"
+        },
+        {
+            "id": "48",
+            "categoryId": "4",
+            "name": "150'lik sızdırmaz"
+        },
+        {
+            "id": "49",
+            "categoryId": "4",
+            "name": "500'lük sızdırmaz"
+        },
+        {
+            "id": "50",
+            "categoryId": "4",
+            "name": "750'lik sızdırmaz"
+        },
+        {
+            "id": "51",
+            "categoryId": "4",
+            "name": "Bowl kasesi"
+        },
+        {
+            "id": "52",
+            "categoryId": "4",
+            "name": "1000'lik salata kasesi"
+        },
+        {
+            "id": "53",
+            "categoryId": "4",
+            "name": "210 gr krem karamel kabı"
+        },
+        {
+            "id": "54",
+            "categoryId": "4",
+            "name": "Plastik kaşık"
+        },
+        {
+            "id": "55",
+            "categoryId": "4",
+            "name": "Plastik çatal"
+        },
+        {
+            "id": "56",
+            "categoryId": "4",
+            "name": "Servis poşeti"
+        },
+        {
+            "id": "57",
+            "categoryId": "4",
+            "name": "Pet bardak "
+        },
+        {
+            "id": "58",
+            "categoryId": "4",
+            "name": "Islak Mendil"
+        },
+        {
+            "id": "59",
+            "categoryId": "4",
+            "name": "Sandviç kağıdı"
+        },
+        {
+            "id": "60",
+            "categoryId": "4",
+            "name": "Kurabiye Kağıdı"
+        },
+        {
+            "id": "61",
+            "categoryId": "4",
+            "name": "Strech Film"
+        },
+        {
+            "id": "62",
+            "categoryId": "4",
+            "name": "Aliminyum Folyo"
+        },
+        {
+            "id": "63",
+            "categoryId": "4",
+            "name": "Yağlı Kağıt"
+        },
+        {
+            "id": "64",
+            "categoryId": "4",
+            "name": "Pipet"
+        },
+        {
+            "id": "65",
+            "categoryId": "4",
+            "name": "Mini çikolata kutusu"
+        },
+        {
+            "id": "66",
+            "categoryId": "4",
+            "name": "Küçük çikolata kutusu"
+        },
+        {
+            "id": "67",
+            "categoryId": "4",
+            "name": "Orta çikolata kutusu"
+        },
+        {
+            "id": "68",
+            "categoryId": "4",
+            "name": "Büyük çikolata kutusu"
+        },
+        {
+            "id": "69",
+            "categoryId": "4",
+            "name": "Kurdele"
+        },
+        {
+            "id": "70",
+            "categoryId": "4",
+            "name": "Mum"
+        },
+        {
+            "id": "71",
+            "categoryId": "4",
+            "name": "Mühür"
+        },
+        {
+            "id": "72",
+            "categoryId": "5",
+            "name": "Yarım yağlı süt"
+        },
+        {
+            "id": "73",
+            "categoryId": "5",
+            "name": "Laktozsuz süt"
+        },
+        {
+            "id": "74",
+            "categoryId": "5",
+            "name": "Light süt"
+        },
+        {
+            "id": "75",
+            "categoryId": "5",
+            "name": "Hopla Krema"
+        },
+        {
+            "id": "76",
+            "categoryId": "5",
+            "name": "Tereyağ"
+        },
+        {
+            "id": "77",
+            "categoryId": "5",
+            "name": "Margarin"
+        },
+        {
+            "id": "78",
+            "categoryId": "5",
+            "name": "Kaşar peyniri"
+        },
+        {
+            "id": "79",
+            "categoryId": "5",
+            "name": "Beyaz peynir"
+        },
+        {
+            "id": "80",
+            "categoryId": "5",
+            "name": "Lor eyniri"
+        },
+        {
+            "id": "81",
+            "categoryId": "5",
+            "name": "Cheddar peyniri"
+        },
+        {
+            "id": "82",
+            "categoryId": "5",
+            "name": "Hellim peyniri"
+        },
+        {
+            "id": "83",
+            "categoryId": "5",
+            "name": "Parmesan"
+        },
+        {
+            "id": "84",
+            "categoryId": "5",
+            "name": "Rende Mozeralla"
+        },
+        {
+            "id": "85",
+            "categoryId": "5",
+            "name": "Labne"
+        },
+        {
+            "id": "86",
+            "categoryId": "5",
+            "name": "Taze peynir"
+        },
+        {
+            "id": "87",
+            "categoryId": "5",
+            "name": "Yoğurt"
+        },
+        {
+            "id": "88",
+            "categoryId": "5",
+            "name": "Kaymak"
+        },
+        {
+            "id": "89",
+            "categoryId": "6",
+            "name": "Hindi füme"
+        },
+        {
+            "id": "90",
+            "categoryId": "6",
+            "name": "Tavuk jambon"
+        },
+        {
+            "id": "91",
+            "categoryId": "6",
+            "name": "Hindi Jambon"
+        },
+        {
+            "id": "92",
+            "categoryId": "6",
+            "name": "Salam"
+        },
+        {
+            "id": "93",
+            "categoryId": "6",
+            "name": "Sucuk"
+        },
+        {
+            "id": "94",
+            "categoryId": "6",
+            "name": "Ton balığı"
+        },
+        {
+            "id": "95",
+            "categoryId": "6",
+            "name": "Tavuk göğsü"
+        },
+        {
+            "id": "96",
+            "categoryId": "6",
+            "name": "Biftek"
+        },
+        {
+            "id": "97",
+            "categoryId": "6",
+            "name": "pepperoni salam"
+        },
+        {
+            "id": "98",
+            "categoryId": "6",
+            "name": "tavuk fleto"
+        },
+        {
+            "id": "99",
+            "categoryId": "6",
+            "name": "Köfte"
+        },
+        {
+            "id": "100",
+            "categoryId": "6",
+            "name": "Tavuk (personel)"
+        },
+        {
+            "id": "101",
+            "categoryId": "6",
+            "name": "Roas beef"
+        },
+        {
+            "id": "102",
+            "categoryId": "6",
+            "name": "Genova salamı"
+        },
+        {
+            "id": "103",
+            "categoryId": "6",
+            "name": "Tavuk nugget"
+        },
+        {
+            "id": "104",
+            "categoryId": "7",
+            "name": "Espresso"
+        },
+        {
+            "id": "105",
+            "categoryId": "7",
+            "name": "Filtre kahve"
+        },
+        {
+            "id": "106",
+            "categoryId": "7",
+            "name": "Türk kahvesi"
+        },
+        {
+            "id": "107",
+            "categoryId": "7",
+            "name": "Karamel şurup"
+        },
+        {
+            "id": "108",
+            "categoryId": "7",
+            "name": "Vanilya şurup"
+        },
+        {
+            "id": "109",
+            "categoryId": "7",
+            "name": "Hindistan cevizli şurup"
+        },
+        {
+            "id": "110",
+            "categoryId": "7",
+            "name": "Irish şurup"
+        },
+        {
+            "id": "111",
+            "categoryId": "7",
+            "name": "Fındık şurup"
+        },
+        {
+            "id": "112",
+            "categoryId": "7",
+            "name": "Buble gum şurup"
+        },
+        {
+            "id": "113",
+            "categoryId": "7",
+            "name": "Ahududu şurup"
+        },
+        {
+            "id": "114",
+            "categoryId": "7",
+            "name": "Vişne şurup"
+        },
+        {
+            "id": "115",
+            "categoryId": "7",
+            "name": "Cookie şurup"
+        },
+        {
+            "id": "116",
+            "categoryId": "7",
+            "name": "Lime şurup"
+        },
+        {
+            "id": "117",
+            "categoryId": "7",
+            "name": "Mint şurup"
+        },
+        {
+            "id": "118",
+            "categoryId": "7",
+            "name": "Pumpkin şurup"
+        },
+        {
+            "id": "119",
+            "categoryId": "7",
+            "name": "Mocha sos"
+        },
+        {
+            "id": "120",
+            "categoryId": "7",
+            "name": "Beyaz sos"
+        },
+        {
+            "id": "121",
+            "categoryId": "7",
+            "name": "Metro"
+        },
+        {
+            "id": "122",
+            "categoryId": "7",
+            "name": "Snickers"
+        },
+        {
+            "id": "123",
+            "categoryId": "7",
+            "name": "Coco star"
+        },
+        {
+            "id": "124",
+            "categoryId": "7",
+            "name": "Karamel dekor"
+        },
+        {
+            "id": "125",
+            "categoryId": "7",
+            "name": "Çilek püresi"
+        },
+        {
+            "id": "126",
+            "categoryId": "7",
+            "name": "Vişne püresi"
+        },
+        {
+            "id": "127",
+            "categoryId": "7",
+            "name": "Karpuz püresi"
+        },
+        {
+            "id": "128",
+            "categoryId": "7",
+            "name": "Kavun püresi"
+        },
+        {
+            "id": "129",
+            "categoryId": "7",
+            "name": "Orman meyvesi püresi"
+        },
+        {
+            "id": "130",
+            "categoryId": "7",
+            "name": "Donmuş vişne"
+        },
+        {
+            "id": "131",
+            "categoryId": "7",
+            "name": "Donmuş orman meyveleri"
+        },
+        {
+            "id": "132",
+            "categoryId": "7",
+            "name": "Chai Tea"
+        },
+        {
+            "id": "133",
+            "categoryId": "7",
+            "name": "Salep"
+        },
+        {
+            "id": "134",
+            "categoryId": "7",
+            "name": "Çilek Tozu"
+        },
+        {
+            "id": "135",
+            "categoryId": "7",
+            "name": "Ada çayı"
+        },
+        {
+            "id": "136",
+            "categoryId": "7",
+            "name": "Ihlamur"
+        },
+        {
+            "id": "137",
+            "categoryId": "7",
+            "name": "Kış çayı"
+        },
+        {
+            "id": "138",
+            "categoryId": "7",
+            "name": "Melisa çayı"
+        },
+        {
+            "id": "139",
+            "categoryId": "7",
+            "name": "Nane-limon çayı"
+        },
+        {
+            "id": "140",
+            "categoryId": "7",
+            "name": "Papatya çayı"
+        },
+        {
+            "id": "141",
+            "categoryId": "7",
+            "name": "Yeşil çay"
+        },
+        {
+            "id": "142",
+            "categoryId": "7",
+            "name": "Siyah çay"
+        },
+        {
+            "id": "143",
+            "categoryId": "7",
+            "name": "Bal"
+        },
+        {
+            "id": "144",
+            "categoryId": "8",
+            "name": "Un"
+        },
+        {
+            "id": "145",
+            "categoryId": "8",
+            "name": "Şeker"
+        },
+        {
+            "id": "146",
+            "categoryId": "8",
+            "name": "Yumurta"
+        },
+        {
+            "id": "147",
+            "categoryId": "8",
+            "name": "Buğday nişastası"
+        },
+        {
+            "id": "148",
+            "categoryId": "8",
+            "name": "Mısır nişastası"
+        },
+        {
+            "id": "149",
+            "categoryId": "8",
+            "name": "Kabartma tozu"
+        },
+        {
+            "id": "150",
+            "categoryId": "8",
+            "name": "Vanilin"
+        },
+        {
+            "id": "151",
+            "categoryId": "8",
+            "name": "Kakao"
+        },
+        {
+            "id": "152",
+            "categoryId": "8",
+            "name": "Pudra şekeri"
+        },
+        {
+            "id": "153",
+            "categoryId": "8",
+            "name": "Esmer Şeker"
+        },
+        {
+            "id": "154",
+            "categoryId": "8",
+            "name": "Ayçiçek yağı"
+        },
+        {
+            "id": "155",
+            "categoryId": "8",
+            "name": "Zeytin yağı"
+        },
+        {
+            "id": "156",
+            "categoryId": "8",
+            "name": "Yeşil zeytin"
+        },
+        {
+            "id": "157",
+            "categoryId": "8",
+            "name": "Siyah zeytin"
+        },
+        {
+            "id": "158",
+            "categoryId": "8",
+            "name": "Dilim zeytin"
+        },
+        {
+            "id": "159",
+            "categoryId": "8",
+            "name": "Mısır"
+        },
+        {
+            "id": "160",
+            "categoryId": "8",
+            "name": "Turşu"
+        },
+        {
+            "id": "161",
+            "categoryId": "8",
+            "name": "Jalapeno"
+        },
+        {
+            "id": "162",
+            "categoryId": "8",
+            "name": "Bal"
+        },
+        {
+            "id": "163",
+            "categoryId": "8",
+            "name": "Çilek reçeli"
+        },
+        {
+            "id": "164",
+            "categoryId": "8",
+            "name": "Vişne reçeli"
+        },
+        {
+            "id": "165",
+            "categoryId": "8",
+            "name": "Pirinç"
+        },
+        {
+            "id": "166",
+            "categoryId": "8",
+            "name": "Şehriye"
+        },
+        {
+            "id": "167",
+            "categoryId": "8",
+            "name": "Nohut"
+        },
+        {
+            "id": "168",
+            "categoryId": "8",
+            "name": "Makarna"
+        },
+        {
+            "id": "169",
+            "categoryId": "8",
+            "name": "Kırmızı mercimek"
+        },
+        {
+            "id": "170",
+            "categoryId": "8",
+            "name": "Yeşil mercimek"
+        },
+        {
+            "id": "171",
+            "categoryId": "8",
+            "name": "Kuru fasülye"
+        },
+        {
+            "id": "172",
+            "categoryId": "8",
+            "name": "Mantı"
+        },
+        {
+            "id": "173",
+            "categoryId": "8",
+            "name": "İnce bulgur"
+        },
+        {
+            "id": "174",
+            "categoryId": "8",
+            "name": "Pilavlık bulgur"
+        },
+        {
+            "id": "175",
+            "categoryId": "8",
+            "name": "Domates sos"
+        },
+        {
+            "id": "176",
+            "categoryId": "8",
+            "name": "Salça"
+        },
+        {
+            "id": "177",
+            "categoryId": "8",
+            "name": "Pirinç unu"
+        },
+        {
+            "id": "178",
+            "categoryId": "8",
+            "name": "Tam buğday unu"
+        },
+        {
+            "id": "179",
+            "categoryId": "8",
+            "name": "Kinoa"
+        },
+        {
+            "id": "180",
+            "categoryId": "8",
+            "name": "Spirullina"
+        },
+        {
+            "id": "181",
+            "categoryId": "8",
+            "name": "Chia Tohumu"
+        },
+        {
+            "id": "182",
+            "categoryId": "8",
+            "name": "Yulaf"
+        },
+        {
+            "id": "183",
+            "categoryId": "8",
+            "name": "Galeta unu"
+        },
+        {
+            "id": "184",
+            "categoryId": "8",
+            "name": "Elma dilim patates"
+        },
+        {
+            "id": "185",
+            "categoryId": "9",
+            "name": "CocoCola"
+        },
+        {
+            "id": "186",
+            "categoryId": "9",
+            "name": "CocoCola light"
+        },
+        {
+            "id": "187",
+            "categoryId": "9",
+            "name": "CocoCola zero"
+        },
+        {
+            "id": "188",
+            "categoryId": "9",
+            "name": "CocoCola 1lt"
+        },
+        {
+            "id": "189",
+            "categoryId": "9",
+            "name": "CocoCola 2.5lt(personel)"
+        },
+        {
+            "id": "190",
+            "categoryId": "9",
+            "name": "Ayran"
+        },
+        {
+            "id": "191",
+            "categoryId": "9",
+            "name": "Ayran 1lt(personel)"
+        },
+        {
+            "id": "192",
+            "categoryId": "9",
+            "name": "Sprite"
+        },
+        {
+            "id": "193",
+            "categoryId": "9",
+            "name": "Fanta"
+        },
+        {
+            "id": "194",
+            "categoryId": "9",
+            "name": "Fuse tea limon"
+        },
+        {
+            "id": "195",
+            "categoryId": "9",
+            "name": "Fuse tea şeftali"
+        },
+        {
+            "id": "196",
+            "categoryId": "9",
+            "name": "Fuse tea Mango & Ananas"
+        },
+        {
+            "id": "197",
+            "categoryId": "9",
+            "name": "Cappy portakal"
+        },
+        {
+            "id": "198",
+            "categoryId": "9",
+            "name": "Cappy şeftali"
+        },
+        {
+            "id": "199",
+            "categoryId": "9",
+            "name": "Cappy vişne"
+        },
+        {
+            "id": "200",
+            "categoryId": "9",
+            "name": "Cappy karşık"
+        },
+        {
+            "id": "201",
+            "categoryId": "9",
+            "name": "Su"
+        },
+        {
+            "id": "202",
+            "categoryId": "9",
+            "name": "Sade soda"
+        },
+        {
+            "id": "203",
+            "categoryId": "9",
+            "name": "Limonlu soda"
+        },
+        {
+            "id": "204",
+            "categoryId": "9",
+            "name": "Elmalı soda"
+        },
+        {
+            "id": "205",
+            "categoryId": "10",
+            "name": "Tuvalet kağıdı"
+        },
+        {
+            "id": "206",
+            "categoryId": "10",
+            "name": "Havlu kağıt"
+        },
+        {
+            "id": "207",
+            "categoryId": "10",
+            "name": "Sıvı sabun"
+        },
+        {
+            "id": "208",
+            "categoryId": "10",
+            "name": "Çamaşır suyu"
+        },
+        {
+            "id": "209",
+            "categoryId": "10",
+            "name": "Yüzey temizleyici"
+        },
+        {
+            "id": "210",
+            "categoryId": "10",
+            "name": "Kireç sökücü(bulaşık makinası)"
+        },
+        {
+            "id": "211",
+            "categoryId": "10",
+            "name": "Parlatıcı (bulaşık makinası"
+        },
+        {
+            "id": "212",
+            "categoryId": "10",
+            "name": "Bulaşık deterjanı (bulaşık makinası)"
+        },
+        {
+            "id": "213",
+            "categoryId": "10",
+            "name": "Bulaşık deterjanı (elle yıkama)"
+        },
+        {
+            "id": "214",
+            "categoryId": "10",
+            "name": "Yağ sökücü"
+        },
+        {
+            "id": "215",
+            "categoryId": "10",
+            "name": "Bulaşık teli "
+        },
+        {
+            "id": "216",
+            "categoryId": "10",
+            "name": "Sünger"
+        },
+        {
+            "id": "217",
+            "categoryId": "10",
+            "name": "Sarı bez "
+        },
+        {
+            "id": "218",
+            "categoryId": "10",
+            "name": "Eldiven"
+        },
+        {
+            "id": "219",
+            "categoryId": "10",
+            "name": "Maske"
+        },
+        {
+            "id": "220",
+            "categoryId": "10",
+            "name": "Bone"
+        },
+        {
+            "id": "221",
+            "categoryId": "10",
+            "name": "Sinek ilacı"
+        },
+        {
+            "id": "222",
+            "categoryId": "10",
+            "name": "Böcek ilacı"
+        },
+        {
+            "id": "223",
+            "categoryId": "11",
+            "name": "Algida vanilya(maraş)"
+        },
+        {
+            "id": "224",
+            "categoryId": "12",
+            "name": "Ketcap"
+        },
+        {
+            "id": "225",
+            "categoryId": "12",
+            "name": "Mayonez"
+        },
+        {
+            "id": "226",
+            "categoryId": "12",
+            "name": "Sarımsak mayonez"
+        },
+        {
+            "id": "227",
+            "categoryId": "12",
+            "name": "Sezar"
+        },
+        {
+            "id": "228",
+            "categoryId": "12",
+            "name": "Barbekü"
+        },
+        {
+            "id": "229",
+            "categoryId": "12",
+            "name": "Acı Sos"
+        },
+        {
+            "id": "230",
+            "categoryId": "12",
+            "name": "Hardal"
+        },
+        {
+            "id": "231",
+            "categoryId": "12",
+            "name": "Ballı Hardal"
+        },
+        {
+            "id": "232",
+            "categoryId": "12",
+            "name": "Ranch Sos"
+        },
+        {
+            "id": "233",
+            "categoryId": "12",
+            "name": "Bufalo"
+        },
+        {
+            "id": "234",
+            "categoryId": "12",
+            "name": "Tatlı ekşi sos"
+        },
+        {
+            "id": "235",
+            "categoryId": "12",
+            "name": "Tatlı acı sos"
+        },
+        {
+            "id": "236",
+            "categoryId": "12",
+            "name": "Tatlı soğan"
+        },
+        {
+            "id": "237",
+            "categoryId": "12",
+            "name": "Közlenmiş biber"
+        },
+        {
+            "id": "238",
+            "categoryId": "12",
+            "name": "Pesto sos"
+        },
+        {
+            "id": "239",
+            "categoryId": "12",
+            "name": "Çemen"
+        },
+        {
+            "id": "240",
+            "categoryId": "12",
+            "name": "Zeytin Ezmesi"
+        },
+        {
+            "id": "241",
+            "categoryId": "12",
+            "name": "Nar ekşisi"
+        },
+        {
+            "id": "242",
+            "categoryId": "12",
+            "name": "Sirke"
+        },
+        {
+            "id": "243",
+            "categoryId": "12",
+            "name": "Soya sosu"
+        },
+        {
+            "id": "244",
+            "categoryId": "12",
+            "name": "Limon suyu"
+        },
+        {
+            "id": "245",
+            "categoryId": "13",
+            "name": "Esmer Ekmek"
+        },
+        {
+            "id": "246",
+            "categoryId": "13",
+            "name": "Beyaz Ekmek"
+        },
+        {
+            "id": "247",
+            "categoryId": "13",
+            "name": "Somun ekmek"
+        },
+        {
+            "id": "248",
+            "categoryId": "13",
+            "name": "Tost ekmeği"
+        },
+        {
+            "id": "249",
+            "categoryId": "13",
+            "name": "Esmer tost ekmeği"
+        },
+        {
+            "id": "250",
+            "categoryId": "13",
+            "name": "Balkan çöreği"
+        },
+        {
+            "id": "251",
+            "categoryId": "13",
+            "name": "Gevrek"
+        },
+        {
+            "id": "252",
+            "categoryId": "14",
+            "name": "Tuz"
+        },
+        {
+            "id": "253",
+            "categoryId": "14",
+            "name": "Karabiber"
+        },
+        {
+            "id": "254",
+            "categoryId": "14",
+            "name": "Kimyon"
+        },
+        {
+            "id": "255",
+            "categoryId": "14",
+            "name": "Kekik"
+        },
+        {
+            "id": "256",
+            "categoryId": "14",
+            "name": "Pul biber"
+        },
+        {
+            "id": "257",
+            "categoryId": "14",
+            "name": "Toz acı biber"
+        },
+        {
+            "id": "258",
+            "categoryId": "14",
+            "name": "Toz tatlı biber"
+        },
+        {
+            "id": "259",
+            "categoryId": "14",
+            "name": "Sarımsak Tozu"
+        },
+        {
+            "id": "260",
+            "categoryId": "14",
+            "name": "Tarçın"
+        },
+        {
+            "id": "261",
+            "categoryId": "14",
+            "name": "Zencefil"
+        },
+        {
+            "id": "262",
+            "categoryId": "14",
+            "name": "Zerdeçal"
+        },
+        {
+            "id": "263",
+            "categoryId": "14",
+            "name": "Çörek otu"
+        },
+        {
+            "id": "264",
+            "categoryId": "14",
+            "name": "Susam"
+        },
+        {
+            "id": "265",
+            "categoryId": "15",
+            "name": "Oreo"
+        },
+        {
+            "id": "266",
+            "categoryId": "15",
+            "name": "Nero"
+        },
+        {
+            "id": "267",
+            "categoryId": "15",
+            "name": "Bebe bisküvi"
+        },
+        {
+            "id": "268",
+            "categoryId": "15",
+            "name": "Burçak"
+        },
+        {
+            "id": "269",
+            "categoryId": "15",
+            "name": "Krep Kırığı"
+        },
+        {
+            "id": "270",
+            "categoryId": "15",
+            "name": "Kedi dili"
+        },
+        {
+            "id": "271",
+            "categoryId": "15",
+            "name": "Kornet Külah"
+        },
+        {
+            "id": "272",
+            "categoryId": "15",
+            "name": "Milföy"
+        },
+        {
+            "id": "273",
+            "categoryId": "15",
+            "name": "Ceviz"
+        },
+        {
+            "id": "274",
+            "categoryId": "15",
+            "name": "Fındık"
+        },
+        {
+            "id": "275",
+            "categoryId": "15",
+            "name": "Çiğ badem"
+        },
+        {
+            "id": "276",
+            "categoryId": "15",
+            "name": "Kavrulmuş badem"
+        },
+        {
+            "id": "277",
+            "categoryId": "15",
+            "name": "Fıstık"
+        },
+        {
+            "id": "278",
+            "categoryId": "15",
+            "name": "Portakal kurusu"
+        },
+        {
+            "id": "279",
+            "categoryId": "15",
+            "name": "Hindistan cevizi kurusu"
+        },
+        {
+            "id": "280",
+            "categoryId": "16",
+            "name": "Pos ruloso"
+        },
+        {
+            "id": "281",
+            "categoryId": "16",
+            "name": "Yazarkasa rulosu"
+        },
+        {
+            "id": "282",
+            "categoryId": "16",
+            "name": "Büyük zımba teli"
+        },
+        {
+            "id": "283",
+            "categoryId": "16",
+            "name": "Küçük zımba teli"
+        },
+        {
+            "id": "284",
+            "categoryId": "16",
+            "name": "Tahta Kalemi"
+        },
+        {
+            "id": "285",
+            "categoryId": "16",
+            "name": "Kalem"
+        }
+    ],
+    "categories": [
+        {
+            "CategoryId": "1",
+            "CategoryName": "chocolates",
+            "seoUrl": "chocolates"
+        },
+        {
+            "CategoryId": "2",
+            "CategoryName": "vegetables",
+            "seoUrl": "vegetables"
+        },
+        {
+            "CategoryId": "3",
+            "CategoryName": "fruits",
+            "seoUrl": "fruits"
+        },
+        {
+            "CategoryId": "4",
+            "CategoryName": "packaging",
+            "seoUrl": "packaging"
+        },
+        {
+            "CategoryId": "5",
+            "CategoryName": "milk and milk products ",
+            "seoUrl": "milk"
+        },
+        {
+            "CategoryId": "6",
+            "CategoryName": "mealt",
+            "seoUrl": "mealt"
+        },
+        {
+            "CategoryId": "7",
+            "CategoryName": "bar",
+            "seoUrl": "bar"
+        },
+        {
+            "CategoryId": "8",
+            "CategoryName": "staple food",
+            "seoUrl": "staplefood"
+        },
+        {
+            "CategoryId": "9",
+            "CategoryName": "drink",
+            "seoUrl": "drink"
+        },
+        {
+            "CategoryId": "10",
+            "CategoryName": "cleaning",
+            "seoUrl": "cleaning"
+        },
+        {
+            "CategoryId": "11",
+            "CategoryName": "algida",
+            "seoUrl": "algida"
+        },
+        {
+            "CategoryId": "12",
+            "CategoryName": "sauces",
+            "seoUrl": "sauces"
+        },
+        {
+            "CategoryId": "13",
+            "CategoryName": "breads",
+            "seoUrl": "breads"
+        },
+        {
+            "CategoryId": "14",
+            "CategoryName": "spice",
+            "seoUrl": "spice"
+        },
+        {
+            "CategoryId": "15",
+            "CategoryName": "complement",
+            "seoUrl": "complement"
+        },
+        {
+            "CategoryId": "16",
+            "CategoryName": "stationary",
+            "seoUrl": "stationary"
+        }
+    ]
+}
