@@ -1,12 +1,10 @@
 .header {
     background-color: #a8bece;
-    height: 90px;
+    height: 80px;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 15px;
-
 
     .logo {
         display: flex;
@@ -24,8 +22,7 @@
         display: flex;
         align-items: center;
 
-        h4,
-        button {
+        h4 {
             margin: 20px;
             padding: 10px 20px;
             font-size: 20px;
@@ -33,39 +30,54 @@
             font-style: italic;
             color: #3d596d;
 
+
             &:hover {
                 color: #78dcfa;
                 font-style: normal;
                 background-color: #668eaa;
-            }
-        }
-    }
 
-
-}
-
-@media screen and (max-width: 950px) {
-    .header {
-        padding: 5px;
-
-        .navbar {
-            h4 {
-                margin: 10px;
             }
         }
 
     }
+
+    .hamburger {
+        display: none;
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        top: 20px;
+        right: 20px;
+
+        .hamburger-icon {
+            width: 30px;
+            height: 30px;
+        }
+    }
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 800px) {
     .header {
-        padding: 5px;
-
         .navbar {
-            h4 {
-                margin: 0;
-            }
+
+            flex-direction: column;
+            position: fixed;
+            justify-content: space-evenly;
+            z-index: 10;
+            background-color: #668eaa;
+            bottom: 0;
+            right: 0;
+            height: calc(100vh - 80px);
         }
 
+        .block {
+            display: none;
+        }
+
+        .hamburger {
+            display: block;
+            position: absolute;
+            z-index: 111;
+        }
     }
 }

@@ -1,12 +1,10 @@
 @import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css");
 
-
-
 .home-page {
     width: 100%;
     height: calc(100vh - 90px);
-    padding: 10px;
+    // padding: 10px;
     overflow-y: auto;
 
     .home-header {
@@ -21,6 +19,7 @@
         .logo-container {
             width: 100px;
             height: 100%;
+            overflow-x: auto;
 
             img {
                 width: 90%;

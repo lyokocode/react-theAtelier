@@ -1,46 +1,50 @@
 import React, { useState } from 'react'
 import { NavLink } from "react-router-dom"
-import SignOut from 'component/user/SignOut'
 import SignIn from 'component/user/SignIn'
+import { GiHamburgerMenu } from "react-icons/gi"
+import { AiOutlineClose } from "react-icons/ai"
 import "styles/header.scss"
-import { BsFillBasketFill } from "react-icons/bs"
-
 
 const Header = () => {
 
-    const [isAuthenticated, setısAuthenticated] = useState(false)
+    const [show, setShow] = useState(false)
+
 
 
     return (
-        <header className='header'>
+        <><header className='header'>
             <NavLink to="/" className='logo'>
                 <img src="images/logo.png" alt="logo" />
             </NavLink>
-            <nav className='navbar'>
+            <nav className={show ? "navbar" : "block"} >
                 <NavLink to="/todo">
                     <h4>Todo</h4>
                 </NavLink>
                 <NavLink to="/shopping">
-                    <button disabled={!isAuthenticated} >
+                    <h4 >
                         Shopping
-                    </button>
+                    </h4>
                 </NavLink>
                 <NavLink to="/expense">
                     <h4 >Expense</h4>
                 </NavLink>
+                <div className='basket' >
+                    <NavLink to="/">
+                        <SignIn />
+                    </NavLink>
+                </div>
             </nav>
 
-            <div style={{ display: "flex", alignItems: "center", justifyContent: "center" }}>
+            <button onClick={() => setShow(!show)} className="hamburger">
                 {
-                    isAuthenticated && <BsFillBasketFill style={{ width: "40px", height: "40px", color: "#4ab866" }} />
-
+                    show ? <AiOutlineClose className='hamburger-icon ' />
+                        : < GiHamburgerMenu className='hamburger-icon ' />
                 }
-                <NavLink to="/">
-                    {isAuthenticated ? <SignIn setısAuthenticated={setısAuthenticated} /> : <SignOut setısAuthenticated={setısAuthenticated} />}
-                </NavLink>
-            </div>
+            </button>
 
         </header >
+        </>
+
     )
 }
 
