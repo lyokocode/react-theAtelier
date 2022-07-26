@@ -1,15 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import { BsFillArrowUpCircleFill, BsFillBasketFill } from "react-icons/bs"
 import { AiFillCloseCircle } from "react-icons/ai"
-import { NavLink } from 'react-router-dom'
 import Basket from './Basket'
 
 const Product = ({ list }) => {
 
     const [product, setProduct] = useState([])
     useEffect(() => {
-        let url = "http://localhost:3000/products"
         // product listing by category
+        let url = "http://localhost:3000/products"
         if (list) {
             url += `?categoryId=${list}`
         }
@@ -17,7 +16,7 @@ const Product = ({ list }) => {
             .then(res => res.json())
             .then(data => setProduct(data))
     }, [list])
-    console.log(list);
+    // console.log(list);
 
     // form
     const [search, setSearch] = useState("");

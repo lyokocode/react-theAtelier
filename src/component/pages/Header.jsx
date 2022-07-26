@@ -1,6 +1,8 @@
 import React from 'react'
 import { NavLink } from "react-router-dom"
-import "../styles/header.scss"
+import SignOut from 'component/user/SignOut'
+import "styles/header.scss"
+import SignIn from 'component/user/SignIn'
 
 const Header = () => {
     return (
@@ -19,11 +21,10 @@ const Header = () => {
                     <h4>Expense</h4>
                 </NavLink>
             </nav>
+            <SignOut />
             <NavLink className="profile" to="/">
-                <div>
-                    <img src="https://pbs.twimg.com/profile_images/1328346782733045760/NjloAlik_400x400.jpg" alt="logo" />
-                </div>
-                <h4>"Aelita"</h4>
+
+                <SignIn />
             </NavLink>
         </header>
     )

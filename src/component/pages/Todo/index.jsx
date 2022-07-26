@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import List from "./List"
-import Alert from '../Alert'
-import "../../styles/todo.scss"
+import Alert from './Alert'
+import "../../../styles/todo.scss"
 const Todo = () => {
 
 
@@ -34,7 +34,7 @@ const Todo = () => {
             //deal with edit
             setList(list.map((item) => {
                 if (item.id === editId) {
-                    return { ...item, title: name }
+                    return { ...item, title: name, }
                 }
                 return item
             })
@@ -46,7 +46,7 @@ const Todo = () => {
         } else {
             //show alert
             showAlert(true, "success", "Listeye eklendi. 🥰")
-            const newItem = { id: new Date().getTime().toString(), title: name };
+            const newItem = { id: new Date().getTime().toString(), title: name, done: false };
             setList([...list, newItem])
             setName("")
         }
@@ -90,7 +90,7 @@ const Todo = () => {
                     </div>
                 </form>
 
-                <List items={list} removeItem={removeItem} editItem={editItem} />
+                <List items={list} setList={setList} removeItem={removeItem} editItem={editItem} />
                 <button className='clear-btn' onClick={clearList}>clear all</button>
             </div>
         </section>

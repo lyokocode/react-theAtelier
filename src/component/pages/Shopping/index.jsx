@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
-// import Category from './Category'
 import Product from './Product'
-import "../../styles/shopping.scss"
+import "styles/shopping.scss"
 
 const Shopping = () => {
 
@@ -16,7 +15,6 @@ const Shopping = () => {
 
     // product listing by category
     const [list, setList] = useState("")
-    const [all, setAll] = useState(false)
 
     const changeCategory = (category) => {
         setList(category.CategoryId)
@@ -24,16 +22,14 @@ const Shopping = () => {
 
     return (
         <aside className='shopping'>
-            {/* <Category /> */}
             <div className='category-container'>
-
                 <ul>
-
                     {categories.map(category => (
                         <li onClick={() => changeCategory(category)} key={category.CategoryId}>{category.CategoryName}</li>
                     ))}
                 </ul>
             </div>
+
             <div className='container'>
                 <Product list={list} changeCategory={changeCategory} />
             </div>

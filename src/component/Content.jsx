@@ -1,9 +1,9 @@
 import React from 'react'
 import { Routes, Route } from "react-router-dom"
-import Home from './Home'
-import Todo from './Todo'
-import Shopping from './Shopping'
-import Expense from './Expense'
+import Home from './pages/Home'
+import Todo from './pages/Todo'
+import Shopping from './pages/Shopping'
+import Expense from './pages/Expense'
 
 const Content = () => {
     return (

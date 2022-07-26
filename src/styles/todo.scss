@@ -102,11 +102,16 @@
                 background-color: hsl(210, 36%, 96%);
             }
 
-            title {
+            .title {
                 margin-bottom: 0;
                 color: hsl(209, 61%, 16%);
                 letter-spacing: 2px;
                 transition: all 0.3s linear;
+
+                .done {
+                    text-decoration: line-through;
+                    text-decoration-color: gray;
+                }
             }
 
             .edit-btn,
