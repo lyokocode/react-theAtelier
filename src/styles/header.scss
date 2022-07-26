@@ -1,6 +1,6 @@
 .header {
     background-color: #a8bece;
-    height: 80px;
+    height: 90px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -20,6 +20,7 @@
 
     .navbar {
         display: flex;
+        flex-direction: row;
         align-items: center;
 
         h4 {
@@ -48,6 +49,7 @@
         height: 40px;
         top: 20px;
         right: 20px;
+        background-color: transparent;
 
         .hamburger-icon {
             width: 30px;
@@ -64,10 +66,11 @@
             position: fixed;
             justify-content: space-evenly;
             z-index: 10;
-            background-color: #668eaa;
+            background-color: #a5c2d7;
             bottom: 0;
             right: 0;
-            height: calc(100vh - 80px);
+            height: calc(100vh - 90px);
+            border-radius: 10px 0 0 10px;
         }
 
         .block {

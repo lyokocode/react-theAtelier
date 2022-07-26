@@ -16,7 +16,7 @@ const Header = () => {
             <NavLink to="/" className='logo'>
                 <img src="images/logo.png" alt="logo" />
             </NavLink>
-            <nav className={show ? "navbar" : "block"} >
+            <nav className={show ? "navbar" : "navbar block"} >
                 <NavLink to="/todo">
                     <h4>Todo</h4>
                 </NavLink>
