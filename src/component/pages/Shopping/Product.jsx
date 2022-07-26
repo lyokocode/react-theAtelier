@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react'
 import { BsFillArrowUpCircleFill, BsFillBasketFill } from "react-icons/bs"
-import { AiFillCloseCircle } from "react-icons/ai"
-import Basket from './Basket'
 
 const Product = ({ list }) => {
 
@@ -24,15 +22,9 @@ const Product = ({ list }) => {
         e.preventDefault()
     }
 
-    const [show, setShow] = useState(false)
-
-
     return (
         <div id='topofpage' className='product'>
-            <button onClick={() => setShow(!show)} className="basket-icon">
-                {show ? <AiFillCloseCircle className='icon-basket' /> : <BsFillBasketFill className='icon-basket' />}
-            </button>
-            {show && <Basket />}
+
             <div className='search-container'>
                 <form onSubmit={handleSubmit}>
                     <input placeholder='ürünlerde ara' value={search} onChange={(e) => setSearch(e.target.value)} />

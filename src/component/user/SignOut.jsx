@@ -1,10 +1,11 @@
 import React from 'react'
 
-const SignOut = () => {
+const SignOut = ({ setısAuthenticated }) => {
     return (
-        <div>
-            <button>Çıkış yap</button>
+        <div className='signout'>
+            <button className='signin-btn' onClick={() => setısAuthenticated(true)}>giriş yap </button>
         </div>
+
     )
 }
 

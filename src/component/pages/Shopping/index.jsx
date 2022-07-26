@@ -29,7 +29,6 @@ const Shopping = () => {
                     ))}
                 </ul>
             </div>
-
             <div className='container'>
                 <Product list={list} changeCategory={changeCategory} />
             </div>

@@ -1,0 +1,49 @@
+.signin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    color: #e9eff3;
+
+    .profile {
+        div {
+            height: 62px;
+            border-radius: 50%;
+            width: 65px;
+            border: 2px solid green;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+
+
+            img {
+                width: 60px;
+                border-radius: 50px;
+            }
+        }
+
+    }
+
+    .user {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .signout-icon {
+            width: 24px;
+            height: 24px;
+            color: #00aadc;
+            margin-left: 10px;
+        }
+    }
+}
+
+.signout {
+    .signin-btn {
+        width: 100px;
+        height: 40px;
+
+    }
+}

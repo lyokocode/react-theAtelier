@@ -7,6 +7,7 @@
     justify-content: space-around;
     padding: 15px;
 
+
     .logo {
         display: flex;
         align-items: center;
@@ -23,7 +24,8 @@
         display: flex;
         align-items: center;
 
-        h4 {
+        h4,
+        button {
             margin: 20px;
             padding: 10px 20px;
             font-size: 20px;
@@ -39,27 +41,7 @@
         }
     }
 
-    .profile {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
 
-        div {
-            height: 62px;
-            border-radius: 50%;
-            width: 65px;
-            border: 2px solid green;
-            margin: auto;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-
-            img {
-                width: 60px;
-                border-radius: 50px;
-            }
-        }
-    }
 }
 
 @media screen and (max-width: 950px) {
