@@ -1,3 +1,10 @@
-import { configureStore } from "@reduxjs/toolkit"
+import { configureStore } from '@reduxjs/toolkit'
 
-import user from "./user"
+import siteReducer from "./site"
+import modalReducer from './modal'
+export default configureStore({
+    reducer: {
+        site: siteReducer,
+        modal: modalReducer
+    },
+})

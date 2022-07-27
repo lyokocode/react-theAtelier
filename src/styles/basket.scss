@@ -1,9 +1,20 @@
-.basket-container {
+.deneme {
     width: 50%;
     height: 75%;
-    background-color: wheat;
-    position: absolute;
-    z-index: 9;
-    top: 5.5%;
-    right: 9.5%;
+    overflow: auto;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+
+    .modal-btn {
+        background-color: transparent;
+        display: flex;
+        margin-left: auto;
+
+        svg {
+            width: 40px;
+            height: 40px;
+        }
+    }
+
 }
