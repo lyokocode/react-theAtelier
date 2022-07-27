@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react'
-import { BsFillArrowUpCircleFill, BsFillBasketFill } from "react-icons/bs"
+import { BsFillArrowUpCircleFill } from "react-icons/bs"
+import { useDispatch } from "react-redux"
+import { addToBasket } from 'store/basket'
 
-const Product = ({ list }) => {
+export default function Product({ list }) {
 
     const [product, setProduct] = useState([])
+
     useEffect(() => {
         // product listing by category
         let url = "http://localhost:3000/products"
@@ -14,12 +17,23 @@ const Product = ({ list }) => {
             .then(res => res.json())
             .then(data => setProduct(data))
     }, [list])
-    // console.log(list);
 
     // form
     const [search, setSearch] = useState("");
     const handleSubmit = (e) => {
         e.preventDefault()
+    }
+
+    // basket
+    const dispatch = useDispatch()
+
+    const addItemToBasket = (item) => {
+        const products = {
+            name: item.name,
+            id: item.id
+        };
+        dispatch(addToBasket(products))
+        console.log(`${products.name} sepete eklenecek`);
     }
 
     return (
@@ -36,7 +50,7 @@ const Product = ({ list }) => {
                     <li key={item.id}>
                         {item.name}
                         <div>
-                            <button className='cart-btn'>ekle</button>
+                            <button onClick={() => addItemToBasket(item)} className='cart-btn'>ekle</button>
                         </div>
                     </li>
                 ))}
@@ -46,4 +60,3 @@ const Product = ({ list }) => {
     )
 }
 
-export default Product

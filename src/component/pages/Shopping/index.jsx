@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react'
 import Product from './Product'
 import "styles/shopping.scss"
 
-const Shopping = () => {
+
+export default function Shopping() {
 
     const [categories, setCategories] = useState([])
     useEffect(() => {
@@ -37,4 +38,7 @@ const Shopping = () => {
     )
 }
 
-export default Shopping
+
+
+
+

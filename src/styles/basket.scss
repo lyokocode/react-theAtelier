@@ -1,10 +1,11 @@
-.deneme {
-    width: 50%;
+.basket-modal {
     height: 75%;
+    width: 50%;
     overflow: auto;
     margin: auto;
-    margin-top: 50px;
     position: relative;
+    margin-top: 50px;
+    background-color: rgba(215, 215, 215, 0.9);
 
     .modal-btn {
         background-color: transparent;
@@ -17,4 +18,40 @@
         }
     }
 
+    .basket-title {
+        text-align: center;
+        width: 100%;
+    }
+
+    ul {
+        padding: 10px;
+        margin-top: 10px;
+
+        li {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 25px 25px;
+            padding: 10px;
+            font-size: 26px;
+            box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+
+        }
+    }
+
+}
+
+@media screen and (max-width: 900px) {
+    .basket-modal {
+        width: 80%;
+        background-color: red;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .basket-modal {
+        width: 95%;
+        height: 80%;
+        background-color: red;
+    }
 }

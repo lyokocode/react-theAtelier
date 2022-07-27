@@ -56,6 +56,23 @@
             height: 30px;
         }
     }
+
+    .basket-icon {
+        display: flex;
+        position: relative;
+
+        p {
+            position: absolute;
+            margin: auto;
+            text-align: center;
+            background-color: rebeccapurple;
+            width: 20px;
+            right: 10px;
+            top: 10px;
+            height: 20px;
+            border-radius: 50%;
+        }
+    }
 }
 
 @media screen and (max-width: 800px) {
