@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import Modal from "react-modal"
 import { useSelector, useDispatch } from "react-redux"
 import { toogleModal } from 'store/modal'
@@ -18,7 +18,6 @@ const Basket = () => {
 
 
     const removeItemFromBasket = (item) => {
-        console.log(`${item.name} birazdan silinecek id = ${item.id}`);
         dispatch(removeFromBasket(item))
 
     }

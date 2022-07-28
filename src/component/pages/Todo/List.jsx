@@ -11,7 +11,6 @@ const List = ({ setList, items, removeItem, editItem }) => {
             }
             return item
         }))
-
     }
 
     return (

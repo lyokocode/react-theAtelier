@@ -19,7 +19,7 @@ const Header = () => {
             <HeaderNav show={show} />
             <HeaderSettings show={show} setShow={setShow} />
 
-            {/* //modallar */}
+            {/* modallar */}
             <div className=' basket-icon'>
                 <BsBasketFill onClick={() => dispatch(toogleModal())} size={40} color={"green"} />
                 <p>

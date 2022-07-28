@@ -9,7 +9,7 @@ export default function Product({ list }) {
 
     useEffect(() => {
         // product listing by category
-        let url = "http://localhost:3000/products"
+        let url = "https://62cb50d03e924a012865dc2e.mockapi.io/api/user/atelierProduct"
         if (list) {
             url += `?categoryId=${list}`
         }
@@ -32,9 +32,16 @@ export default function Product({ list }) {
             name: item.name,
             id: item.id
         };
+
         dispatch(addToBasket(products))
-        console.log(`${products.name} sepete eklenecek`);
+
+
+
     }
+
+
+
+
 
     return (
         <div id='topofpage' className='product'>

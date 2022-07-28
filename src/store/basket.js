@@ -2,16 +2,20 @@ import { createSlice } from "@reduxjs/toolkit"
 
 
 const initialState = {
-    items: []
+    items: [],
 }
 
 export const basket = createSlice({
     name: "basket",
     initialState,
 
+
     reducers: {
         addToBasket: (state, action) => {
+            localStorage.setItem("items", JSON.stringify([...state.items, action.payload]))
             state.items = [...state.items, action.payload]
+
+
         },
 
         removeFromBasket: (state, action) => {
@@ -32,3 +36,4 @@ export const basket = createSlice({
 export const { addToBasket, removeFromBasket } = basket.actions
 export const selectItems = (state) => state.basket.items
 export default basket.reducer
+
