@@ -2,8 +2,9 @@ import React, { useEffect, useState } from 'react'
 import List from "./List"
 import Alert from '../../Alert/Alert'
 import "../../../styles/todo.scss"
-const Todo = () => {
 
+
+const Todo = () => {
 
     const getLocalStorage = () => {
         let list = localStorage.getItem("list");
