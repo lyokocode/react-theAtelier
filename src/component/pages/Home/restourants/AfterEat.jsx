@@ -19,13 +19,13 @@ const AmericanSandwich = () => {
         <>
             <Slider {...settings} className="slider">
                 <figure>
-                    <img src='images/after1.jpg' />
+                    <img src='images/after1.jpg' alt='afterEat' />
                 </figure>
                 <figure>
-                    <img src='images/after2.jpg' />
+                    <img src='images/after2.jpg' alt='afterEat' />
                 </figure>
                 <figure>
-                    <img src='images/after3.jpg' />
+                    <img src='images/after3.jpg' alt='afterEat' />
                 </figure>
 
             </Slider>

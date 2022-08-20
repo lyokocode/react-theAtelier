@@ -19,13 +19,13 @@ const FitThings = () => {
         <>
             <Slider {...settings} className="slider">
                 <figure>
-                    <img src='images/fit1.jpg' />
+                    <img src='images/fit1.jpg' alt='fitThings' />
                 </figure>
                 <figure>
-                    <img src='images/fit2.jpg' />
+                    <img src='images/fit2.jpg' alt='fitThings' />
                 </figure>
                 <figure>
-                    <img src='images/fit3.jpg' />
+                    <img src='images/fit3.jpg' alt='fitThings' />
                 </figure>
 
             </Slider>

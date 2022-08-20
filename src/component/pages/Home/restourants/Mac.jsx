@@ -19,25 +19,25 @@ const Mac = () => {
         <>
             <Slider {...settings} className="slider">
                 <figure>
-                    <img src='images/beauty.jpg' />
+                    <img src='images/beauty.jpg' alt='macGuffin' />
                 </figure>
                 <figure>
-                    <img src='images/over.jpg' />
+                    <img src='images/over.jpg' alt='macGuffin' />
                 </figure>
                 <figure>
-                    <img src='images/ception.jpg' />
+                    <img src='images/ception.jpg' alt='macGuffin' />
                 </figure>
                 <figure>
-                    <img src='images/cheesecake.jpg' />
+                    <img src='images/cheesecake.jpg' alt='macGuffin' />
                 </figure>
                 <figure>
-                    <img src='images/land.jpg' />
+                    <img src='images/land.jpg' alt='macGuffin' />
                 </figure>
                 <figure>
-                    <img src='images/leon.jpg' />
+                    <img src='images/leon.jpg' alt='macGuffin' />
                 </figure>
                 <figure>
-                    <img src='images/brownie.jpg' />
+                    <img src='images/brownie.jpg' alt='macGuffin' />
                 </figure>
             </Slider>
         </>
