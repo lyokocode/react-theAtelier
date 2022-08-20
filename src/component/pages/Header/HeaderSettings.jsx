@@ -17,9 +17,9 @@ const HeaderSettings = ({ show, setShow }) => {
                         : < GiHamburgerMenu className='hamburger-icon ' />
                 }
             </button>
-            <button onClick={() => dispatch(setColorMode())}>
+            {/* <button onClick={() => dispatch(setColorMode())}>
                 {color ? "normal moda geç" : "arka planı değiştir"}
-            </button>
+            </button> */}
         </>
     )
 }

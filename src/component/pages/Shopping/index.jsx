@@ -7,7 +7,7 @@ export default function Shopping() {
 
     const [categories, setCategories] = useState([])
     useEffect(() => {
-        fetch("https://62cb50d03e924a012865dc2e.mockapi.io/api/user/atelier-categories")
+        fetch("http://localhost:3000/categories")
             .then(res => res.json())
             .then(data => setCategories(data))
 

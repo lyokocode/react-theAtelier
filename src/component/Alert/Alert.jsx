@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import "../../../styles/alert.scss"
+import "../../styles/alert.scss"
 
 const Alert = ({ type, msg, removeAlert, list }) => {
     useEffect(() => {

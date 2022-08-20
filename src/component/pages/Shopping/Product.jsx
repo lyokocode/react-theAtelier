@@ -9,7 +9,7 @@ export default function Product({ list }) {
 
     useEffect(() => {
         // product listing by category
-        let url = "https://62cb50d03e924a012865dc2e.mockapi.io/api/user/atelierProduct"
+        let url = "http://localhost:3000/products"
         if (list) {
             url += `?categoryId=${list}`
         }
