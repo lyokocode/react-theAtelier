@@ -3,4 +3,4 @@
 ## React Project
 
 ### demo
-https://aelita-getirclone.netlify.app
+https://aelita-theatelier.netlify.app
